@@ -1,13 +1,5 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import {
-  HomeLayout,
-  Landing,
-  About,
-  Contact1,
-  Projects,
-  Error,
-  SinglePageError,
-} from './pages'
+import { HomeLayout, Landing, About, Contact1, Projects, Error } from './pages'
 
 import { action as contactAction } from './pages/Contact1'
 
