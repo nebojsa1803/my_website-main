@@ -1,17 +1,15 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-
 import {
   HomeLayout,
   Landing,
-  Details,
-  Favorites,
+  About,
+  Contact1,
+  Projects,
   Error,
-  ProtectedRoute,
   SinglePageError,
 } from './pages'
 
-import { loader as landingLoader } from './pages/Landing'
-import { loader as detailsLoader } from './pages/Details'
+import { action as contactAction } from './pages/Contact1'
 
 const router = createBrowserRouter([
   {
@@ -22,21 +20,19 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
-        errorElement: <SinglePageError />,
-        loader: landingLoader,
       },
       {
-        path: '/details/:id',
-        loader: detailsLoader,
-        element: <Details />,
+        path: '/projects',
+        element: <Projects />,
       },
       {
-        path: '/favorites',
-        element: (
-          <ProtectedRoute>
-            <Favorites />
-          </ProtectedRoute>
-        ),
+        path: '/about',
+        element: <About />,
+      },
+      {
+        path: '/contact',
+        element: <Contact1 />,
+        action: contactAction,
       },
     ],
   },

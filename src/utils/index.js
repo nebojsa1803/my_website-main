@@ -1,12 +1,9 @@
 import axios from 'axios'
 
 // axios with baseURL
-const productionUrl = 'http://localhost:5173/'
+const productionUrl = 'https://formspree.io/f/xgejozpp'
 export const customFetch = axios.create({
   baseURL: productionUrl,
-  headers: {
-    Accept: 'application/json, text/plain, */*',
-  },
 })
 
 // Local Storage functions
