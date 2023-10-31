@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { cardCover } from '../assets/memory-images'
 
 const SingleCard = ({ id, img, handleChoice, flipped, disabled }) => {
