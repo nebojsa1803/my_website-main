@@ -1,22 +1,14 @@
 import { nanoid } from '@reduxjs/toolkit'
 import SingleCard from './SingleCard'
 import { SectionTitle } from '../components'
-import {
-  js,
-  reactLogo,
-  ts,
-  tailwind,
-  redux,
-  router,
-} from './../assets/memory-images'
 import { useEffect, useState } from 'react'
 const cardImages = [
-  { img: js, matched: false },
-  { img: reactLogo, matched: false },
-  { img: redux, matched: false },
-  { img: ts, matched: false },
-  { img: router, matched: false },
-  { img: tailwind, matched: false },
+  { img: '/assets/memory-images/js.svg', matched: false },
+  { img: '/assets/memory-images/react.svg', matched: false },
+  { img: '/assets/memory-images/redux.svg', matched: false },
+  { img: '/assets/memory-images/ts.svg', matched: false },
+  { img: '/assets/memory-images/router.svg', matched: false },
+  { img: '/assets/memory-images/tailwind.svg', matched: false },
 ]
 
 const MemoryGame = () => {

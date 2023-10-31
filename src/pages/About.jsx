@@ -1,10 +1,13 @@
-import about from './../assets/about.svg'
 import { SectionTitle } from '../components'
 const About = () => {
   return (
     <div>
       <div className='grid md:grid-cols-2 items-center gap-16'>
-        <img src={about} className='w-full h-64' />
+        <svg>
+          <image xlinkHref='/assets/about.svg' className='w-full h-64' /> 
+                  
+        </svg>
+
         <article className='flex flex-col gap-5'>
           <SectionTitle text='Profile' />
           <p className='text-slate-600  leading-loose'>

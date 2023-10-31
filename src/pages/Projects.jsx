@@ -3,7 +3,7 @@ import { ProjectsCard, SectionTitle } from './../components'
 const projects = [
   {
     id: '5',
-    img: 'src/assets/projects-images/currencies.png',
+    img: '/assets/projects-images/currencies.png',
     url: 'https://currencies-with-favorite-list.netlify.app/',
     github: 'https://github.com/nebojsa1803/currencies',
     title: 'Crypto Currencies display',
@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: '4',
-    img: 'src/assets/projects-images/newTestAnalizator.png',
+    img: '/assets/projects-images/newTestAnalizator.png',
     url: 'https://testanalizator.netlify.app/',
     github: 'https://github.com/nebojsa1803/analizator-2',
     title: 'TestAnalizator',
@@ -19,7 +19,7 @@ const projects = [
   },
   {
     id: '3',
-    img: 'src/assets/projects-images/tic-tac-toe.jpg',
+    img: '/assets/projects-images/tic-tac-toe.jpg',
     url: 'https://o-and-x.netlify.app/',
     github: 'https://github.com/nebojsa1803/tic-tac-toe',
     title: 'Tic Tac Toe',
@@ -27,7 +27,7 @@ const projects = [
   },
   {
     id: '2',
-    img: 'src/assets/projects-images/movies-place.png',
+    img: '/assets/projects-images/movies-place.png',
     url: 'https://moviesplace.netlify.app/',
     github: 'https://github.com/nebojsa1803/movies_place',
     title: 'Movies Place',
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     id: '1',
-    img: 'src/assets/projects-images/testAnalizatorImg.jpg',
+    img: '/assets/projects-images/testAnalizatorImg.jpg',
     url: 'https://testanalizatorv1.netlify.app/',
     github: 'https://github.com/nebojsa1803/test_analizator',
     title: 'TestAnalizator (old version)',
