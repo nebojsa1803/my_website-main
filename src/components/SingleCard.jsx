@@ -11,9 +11,15 @@ const SingleCard = ({ id, img, handleChoice, flipped, disabled }) => {
         <svg className='images front bg-slate-100' width='90' height='90'>
           <image
             xlinkHref={img}
-            src='yourfallback.png'
-            width='90'
-            height='90'
+            style={{
+              width: '100%',
+              height: '100%',
+              position: 'fixed',
+              top: '0',
+              left: '0',
+              bottom: '0',
+              right: '0',
+            }}
           />
         </svg>
 
@@ -27,8 +33,15 @@ const SingleCard = ({ id, img, handleChoice, flipped, disabled }) => {
           <image
             xlinkHref='/assets/memory-images/cardCover.svg'
             src='yourfallback.png'
-            width='90'
-            height='90'
+            style={{
+              width: '100%',
+              height: '100%',
+              position: 'fixed',
+              top: '0',
+              left: '0',
+              bottom: '0',
+              right: '0',
+            }}
           />
         </svg>
       </div>
