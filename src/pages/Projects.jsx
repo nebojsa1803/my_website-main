@@ -2,6 +2,14 @@ import { ProjectsCard, SectionTitle } from './../components'
 
 const projects = [
   {
+    id: '6',
+    img: '/assets/projects-images/search.png',
+    url: 'https://heroic-dieffenbachia-120021.netlify.app/',
+    github: 'https://github.com/nebojsa1803/serach-github-users',
+    title: 'Search Github Users',
+    text: 'On this site it is enough to just type in the name of the github user to get user statistics',
+  },
+  {
     id: '5',
     img: '/assets/projects-images/currencies.png',
     url: 'https://currencies-with-favorite-list.netlify.app/',
